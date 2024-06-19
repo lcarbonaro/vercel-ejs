@@ -1,14 +1,9 @@
 {
-    "functions": {
-      "api/*.js": {
-        "includeFiles": "views/**"
-      }
-    },
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/api"
-        }
-    ]
-  }
   
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ]
+}
