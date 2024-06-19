@@ -3,6 +3,12 @@
       "api/*.js": {
         "includeFiles": "views/**"
       }
-    }
+    },
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api"
+        }
+    ]
   }
   
